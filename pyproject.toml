@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "robotframework-jira-xray-confluence"
+version = "0.1.0"
+description = "Robot Framework library for Jira, Confluence and Xray (Cloud & Data Center)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "orenault" }
+]
+requires-python = ">=3.9"
+dependencies = [
+  "robotframework>=7.0",
+  "wrapt>=1.16.0",
+  "atlassian-python-api>=3.41.0",
+  "xray-cloud-for-jira>=0.1.0"
+]
+keywords = [
+  "robotframework",
+  "jira",
+  "confluence",
+  "xray",
+  "qa",
+  "automation",
+  "testops"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Framework :: Robot Framework",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Testing"
+]
+
+[project.urls]
+Homepage = "https://github.com/orenault/robotframework-jira-xray-confluence"
+Repository = "https://github.com/orenault/robotframework-jira-xray-confluence"
+Issues = "https://github.com/orenault/robotframework-jira-xray-confluence/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/robotframework_jira_xray_confluence"]
