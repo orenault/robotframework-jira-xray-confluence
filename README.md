@@ -307,19 +307,6 @@ uv sync
 uv build
 ```
 
-## Publish to PyPI
-
-Publish order matters:
-
-1. publish `xray-cloud-for-jira`
-2. publish `robotframework-jira-xray-confluence`
-
-Example:
-
-```bash
-uv publish
-```
-
 ## License
 
 MIT
