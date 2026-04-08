@@ -32,18 +32,20 @@ This package exposes, through one Robot Framework entry point:
 - avoid duplicating keywords
 - keep Python and Robot Framework usages aligned
 
-💥 CORE FEATURE: Hybrid Dynamic Keywords (600+)
+## 💥 CORE FEATURE: Hybrid Dynamic Keywords (600+)
+
 This library dynamically exposes 600+ keywords (Jira/Confluence/Bitbucket/JSD/Jira Xray DC)
 
-🔧 How it works
-introspects Python clients
-maps public methods → RF keywords
-injects them dynamically
+## 🔧 How it works
+- introspects Python clients
+- maps public methods → RF keywords
+- injects them dynamically
 
-🎯 Benefits
-no wrapper maintenance
-automatic updates
-massive coverage
+## 🎯 Benefits
+
+- no wrapper maintenance
+- automatic updates
+- massive coverage
 
 ## Installation
 
