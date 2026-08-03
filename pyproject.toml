@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "robotframework-jira-xray-confluence"
-version = "0.1.0"
+version = "0.1.1"
 description = "Robot Framework library for Jira, Confluence and Xray (Cloud & Data Center)"
 readme = "README.md"
 license = { text = "MIT" }
@@ -13,7 +13,7 @@ authors = [
 ]
 requires-python = ">=3.9"
 dependencies = [
-  "robotframework>=7.0",
+  "robotframework>=6.1",
   "wrapt>=1.16.0",
   "atlassian-python-api>=3.41.0",
   "xray-cloud-for-jira>=0.1.0"
